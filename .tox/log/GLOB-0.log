@@ -1,0 +1,48 @@
+action: GLOB, msg: packaging
+cwd: D:\pycharm_projects\myFirstFlask
+cmd: 'd:\pycharm_projects\venv\scripts\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing myFirstFlask.egg-info\PKG-INFO
+writing dependency_links to myFirstFlask.egg-info\dependency_links.txt
+writing requirements to myFirstFlask.egg-info\requires.txt
+writing top-level names to myFirstFlask.egg-info\top_level.txt
+reading manifest file 'myFirstFlask.egg-info\SOURCES.txt'
+writing manifest file 'myFirstFlask.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating myFirstFlask-0.1.0
+creating myFirstFlask-0.1.0\myFirstFlask
+creating myFirstFlask-0.1.0\myFirstFlask.egg-info
+copying files to myFirstFlask-0.1.0...
+copying setup.py -> myFirstFlask-0.1.0
+copying myFirstFlask\__init__.py -> myFirstFlask-0.1.0\myFirstFlask
+copying myFirstFlask\calculator.py -> myFirstFlask-0.1.0\myFirstFlask
+copying myFirstFlask\hello.py -> myFirstFlask-0.1.0\myFirstFlask
+copying myFirstFlask.egg-info\PKG-INFO -> myFirstFlask-0.1.0\myFirstFlask.egg-info
+copying myFirstFlask.egg-info\SOURCES.txt -> myFirstFlask-0.1.0\myFirstFlask.egg-info
+copying myFirstFlask.egg-info\dependency_links.txt -> myFirstFlask-0.1.0\myFirstFlask.egg-info
+copying myFirstFlask.egg-info\requires.txt -> myFirstFlask-0.1.0\myFirstFlask.egg-info
+copying myFirstFlask.egg-info\top_level.txt -> myFirstFlask-0.1.0\myFirstFlask.egg-info
+Writing myFirstFlask-0.1.0\setup.cfg
+creating '.tox\dist\myFirstFlask-0.1.0.zip' and adding 'myFirstFlask-0.1.0' to it
+adding 'myFirstFlask-0.1.0'
+adding 'myFirstFlask-0.1.0\myFirstFlask'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info'
+adding 'myFirstFlask-0.1.0\PKG-INFO'
+adding 'myFirstFlask-0.1.0\setup.cfg'
+adding 'myFirstFlask-0.1.0\setup.py'
+adding 'myFirstFlask-0.1.0\myFirstFlask\calculator.py'
+adding 'myFirstFlask-0.1.0\myFirstFlask\hello.py'
+adding 'myFirstFlask-0.1.0\myFirstFlask\__init__.py'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info\dependency_links.txt'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info\PKG-INFO'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info\requires.txt'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info\SOURCES.txt'
+adding 'myFirstFlask-0.1.0\myFirstFlask.egg-info\top_level.txt'
+removing 'myFirstFlask-0.1.0' (and everything under it)
