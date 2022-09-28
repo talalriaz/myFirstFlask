@@ -8,7 +8,7 @@ A very simple Flask application.
 
 3-  You can verify the running container by ``docker ps``
 
-4-  Submit the ``POST`` json request with two numbers, it will add both of them and display the results.
+4-  On the endpoint ``localhost:5000/calculator``, submit the ``POST`` json request with two numbers, it will add both of them and display the results.
 
 A sample json input:
 ```
