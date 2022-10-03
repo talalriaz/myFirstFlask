@@ -22,8 +22,8 @@ jobs:
       - python/install-packages:
           pkg-manager: pip
       - run:
-        name: Run flask app
-        command: python -m myFirstFlask.app
+          name: Run flask app
+          command: python -m myFirstFlask.app
 
 
   test: # This is the name of the job, feel free to change it to better match what you're trying to do!
