@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 from markupsafe import escape
+from waitress import serve
 from .calculator import calculate_sum
 
 """
@@ -50,4 +51,4 @@ def call_calculator():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    serve(app, port=8080, url_scheme='https')
